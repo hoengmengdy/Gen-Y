@@ -1,0 +1,48 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    padding: 20px;
+}
+
+
+/* IMAGE SECTION */
+
+#GenY {
+    max-width: 800px;
+    margin: auto;
+}
+
+#GenY img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* TITLE */
+
+#GenY h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* TEXT CONTENT */
+
+.topNews {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.7;
+    font-size: 15px;
+}
