@@ -1,0 +1,70 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #111;
+    padding: 20px;
+}
+
+
+/* IMAGE SECTION */
+
+#GenZ {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* IMAGE */
+
+#GenZ img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+/* ARTICLE TEXT */
+
+.topNews {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: justify;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* OPTIONAL TITLE STYLE (if you add h1 later) */
+
+.topNews h1 {
+    margin-bottom: 15px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    #GenZ img {
+        height: 250px;
+    }
+    .topNews {
+        font-size: 14px;
+    }
+}
